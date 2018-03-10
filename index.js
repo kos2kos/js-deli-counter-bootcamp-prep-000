@@ -10,7 +10,7 @@ function nowServing(line){
   if (line === 0){
     return"There is nobody waiting to be served!"
   } else{
-    return `N
+    return `Currently serving ${temp}.`
   }
 }
 function currentLine(line){
