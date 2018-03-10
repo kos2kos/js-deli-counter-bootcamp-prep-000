@@ -12,6 +12,7 @@ function nowServing(line){
     return `Currently serving ${line.pop}.`
   }
 }
+
 function currentLine(line){
   var temp = "The line is currently:"
   if (line === 0){
