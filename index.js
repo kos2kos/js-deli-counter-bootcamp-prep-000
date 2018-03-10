@@ -5,7 +5,12 @@ function takeANumber(line, name){
   return  `Welcome, ${name}. You are number ${line} in line.`
 }
 
-function 
+function nowServing(line){
+  var temp = line.pop()
+  if (line === 0){
+    return 
+  }
+}
 function currentLine(line){
   if (line === 0){
     return "The line is currently empty."
