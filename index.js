@@ -6,9 +6,9 @@ function takeANumber(line, name){
 }
 
 function nowServing(line){
-  if (line === 0){
+  if (line.length === 0){
     return"There is nobody waiting to be served!"
-  } if (line > 0){
+  } if (line.length > 0){
     return `Currently serving ${line.pop}.`
   }
 }
