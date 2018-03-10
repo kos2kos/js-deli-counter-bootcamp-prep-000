@@ -5,6 +5,7 @@ function takeANumber(line, name){
   return  `Welcome, ${name}. You are number ${line} in line.`
 }
 
+function 
 function currentLine(line){
   if (line === 0){
     return "The line is currently empty."
