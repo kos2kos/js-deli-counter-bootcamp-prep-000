@@ -9,7 +9,7 @@ function nowServing(line){
   var temp = line.pop()
   if (line === 0){
     return"There is nobody waiting to be served!"
-  } else{
+  } if (line > 0){
     return `Currently serving ${temp}.`
   }
 }
