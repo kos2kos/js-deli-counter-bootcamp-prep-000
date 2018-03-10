@@ -19,7 +19,7 @@ function currentLine(line){
     return "The line is currently empty."
   } else {
     for (var i = 0; i < line; i++){
-      temp = temp + " ${line[i]"
-    }
+      temp = temp + ` ${i + 1}. ${line[i]},`
+    }return temp
   }
 }
