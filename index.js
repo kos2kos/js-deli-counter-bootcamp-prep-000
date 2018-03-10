@@ -21,7 +21,12 @@ function currentLine(line){
     return "The line is currently empty."
   } if (line.length > 0) {
     for (var i = 0; i < line.length; i++){
-      temp = temp + ` ${i + 1}. ${line[i]},`
+      if (i != line.length){
+        temp = temp + ` ${i + 1}. ${line[i]},`
+      }
+      if (i === line.length){
+        temp = temp + ` ${i + 1}. ${line[i]}`
+      }
     }return temp
   }
 }
