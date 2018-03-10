@@ -6,10 +6,10 @@ function takeANumber(line, name){
 }
 
 function nowServing(line){
-  var temp = line.pop()
   if (line === 0){
     return"There is nobody waiting to be served!"
   } if (line > 0){
+    var temp = line.pop()
     return `Currently serving ${temp}.`
   }
 }
