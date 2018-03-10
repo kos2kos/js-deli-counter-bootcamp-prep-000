@@ -8,7 +8,9 @@ function takeANumber(line, name){
 function nowServing(line){
   var temp = line.pop()
   if (line === 0){
-    return 
+    return"There is nobody waiting to be served!"
+  } else{
+    return `N
   }
 }
 function currentLine(line){
