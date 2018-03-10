@@ -7,6 +7,8 @@ function takeANumber(line, name){
 
 function currentLine(line){
   if (line === 0){
-    return
+    return "The line is currently empty."
+  } else {
+    
   }
 }
